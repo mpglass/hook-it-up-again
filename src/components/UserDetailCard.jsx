@@ -13,7 +13,7 @@ const UserDetailCard = ({ user }) => {
           </p>
           <Link
             className="btn btn-outline-info btn-sm btn-block w-75 mx-auto mt-3"
-            to={`users/${user.id}`}
+            to={`/users/${user.id}`}
           >
             Get Details
           </Link>
